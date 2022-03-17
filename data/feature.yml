@@ -1,0 +1,49 @@
+enable  : true
+title   : WAS ICH BIETE
+subtitle: >
+  
+item    :
+  - icon  : ion-android-radio-button-off
+    title : Gruppenkurse
+    description : >
+
+      <ul>
+        <li>4 bis max. 6 Personen</li>
+        <li>Ayur-Yoga im Rhythmus des Mondes</li>
+        <li>Alle Levels</li>
+      </ul>
+
+  - icon  : ion-android-radio-button-off
+    title : Mama/Papa-Kind-Stunden
+    description : >
+      
+      <ul>
+        <li>3 bis max. 5 Paare</li>
+        <li>Partner-/Kinderyoga</li>
+        <li>Alle Levels</li>
+      </ul>
+
+  - icon  : ion-android-radio-button-off
+    title : Einzelstunden
+    description : >
+      
+      <ul>
+        <li>Nur du und ich :-)</li>
+        <li>Gesundheitsyoga</li>
+        <li>Alle Levels</li>
+      </ul>
+
+#  - icon  : ion-ios-keypad-outline
+#    title : Solid Support
+#    description : >
+#      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.
+#
+#  - icon  : ion-ios-barcode-outline
+#    title : Simple Installation
+#    description : >
+#      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.
+#  
+#  - icon  : ion-ios-lightbulb-outline
+#    title : Well documented.
+#    description : >
+#      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.

@@ -1,0 +1,80 @@
+baseURL = "https://nicolewaigandyoga.github.io/"
+languageCode = "de"
+title = "Nicole Waigand Yoga"
+theme = "timer-hugo"
+publishDir = "../nicolewaigandyoga.github.io"
+
+# We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
+
+# Site Menus
+[menu]
+    # Navbar Menus
+#    [[menu.nav]]
+#       name    = "Über mich"
+#       url     = "about"
+#        weight  = 2
+#    [[menu.nav]]
+#        name    = "Kontakt"
+#        url     = "contact"
+#        weight  = 4
+#    [[menu.nav]]
+#        name    = "Galerie"
+#        url     = "gallery"
+#        weight  = 4
+#    [[menu.nav]]
+#        name    = "Blog"
+#        url     = "blog"
+#        weight  = 5
+
+# Site Params
+[params]
+    home = "Startseite"
+    logo = "images/logo2_80px.png"
+    dateFormat = "6 January 2006"
+    # Meta data
+    description = "Airspace Hugo theme"
+    author = "Themefisher"
+    # Google Analitycs
+    googleAnalitycsID = "Your ID"
+
+    # Banner Section
+    [params.banner]
+        enable  = true
+        bgImage = "images/bg_mandala.jpg"
+        heading = "Hallo! <br/> Mein Name ist Nicole & bei mir gibt's"
+        description = "\"Unterrichte das, was in dir ist. Aber nicht so, wie es zu dir, sondern zu deinem Gegenüber passt.\" <br> <span style=\"font-weight: 300;\">- 	T. Krishnamacharya</span>"
+        btn     = false
+        btnText = "Download More"
+        btnURL  = "https://themefisher.com/"
+        [[params.banner.flipText]]
+            title   = "AYUR-YOGA IM RHYTHMUS<br /> DES MONDES"
+        [[params.banner.flipText]]
+            title   = "YOGA GRUPPENKURSE<br />&nbsp;"
+        [[params.banner.flipText]]
+            title   = "YOGA EINZELSTUNDEN<br />&nbsp;"
+        [[params.banner.flipText]]
+            title   =  "MAMA/PAPA-KIND-YOGASTUNDEN<br />&nbsp;"
+
+    # Homepage About Section
+    [params.about]
+        enable  = true
+        title   = "Über mich"
+        content = "Seit meiner Ausbildung zur Ayur-Yogalehrerin nach Remo Rittiner mit Abschluss im Oktober 2018 unterrichte ich in meinem Yogaraum in Bad Schallerbach. In meinen Gruppenkursen achte ich besonders darauf, dass die Asana-Praxis an die jeweiligen Bedürfnisse angepasst und im Einklang mit dem Atem stattfindet. Die positive Wirkung der Yogapraxis wird durch die Fokussierung auf die vom Mond beeinflusste Körperzone noch verstärkt. Alles, was man für das Wohlergehen jener Körperregion tut, die vom Zeichen des Tages regiert wird, ist wirksamer als an anderen Tagen. Dieses Mondwissen kombiniere ich mit der wunderbaren Lebensschule des Yoga. <br /><br />In den Mama/Papa-Kind Yogastunden spüren, dehnen und kräftigen wir unsere Körper sanft. Der Spaß und das gemeinsame Tun stehen dabei im Vordergrund. Als Team achten wir gut aufeinander und lernen voneinander. <br /><br />In den Einzelstunden kann ich ganz auf Deine speziellen Bedürfnisse eingehen. Mit Hilfe von speziellen Druckpunkten kann ich erste Verspannungen lösen. Ich zeige und übe mit Dir, speziell für Deine Ziele, ausgesuchte Asanas. Auch Pranayama und Entspannungsübungen können wir integrieren. Gerne kann ich Dir Dein persönliches Übungsprogramm mitgeben, damit Du auch zu Hause praktizieren kannst.<br /><br />Yoga ist meine Lebensphilosophie, die ich gerne mit Dir teile!<br /><br />Namastè, Nicole"
+        #image   = "images/about/about.jpg"
+        image    = "images/Nicole.jpg"
+
+    # Call to Action
+    [params.cta]
+        enable  = true
+        title   = "ALSO, WAS DENKST DU?"
+        content = "Du brauchst einen Termin? Schreib mir ein Mail oder ruf einfach an! Keine Sorge - ich beiße nicht. <br/><br/>Telefon: 0660 / 460 91 50<br />E-Mail: NicoleWaigandYoga@gmx.at"
+        #btnText = "Contact with me"
+        #btnURL  = "/contact"
+
+    # Portfolio Section On Homepage
+    [params.portfolio]
+        enable  = false
+        title   = "Latest Works"
+        subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
+
+    
